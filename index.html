@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="onload()">
+    <div id="head">
+        <div id="tohead">
+            <div>
+                <img src="616da2c309aa0721dacedf0a_logo-restaurante-x-template.svg" alt="">
+            </div>
+            <div id="category">
+                <div>Home</div>
+                <div>About</div>
+                <div>Menu</div>
+                <div>Pages</div>
+            </div>
+            
+        </div>
+        <div id="btn">
+            <button id="cart" onclick="oncart()"> <i class="fa fa-shopping-cart" style="font-size:40px;color:red"></i></button>
+            <div id="counter">0</div>
+        </div>
+
+    </div>
+    <div id="middile">
+
+    <div id="menu">
+        <div class="text">Browse our menu</div>
+        <div id="products">
+
+        </div>
+        <div id="products2"></div>
+    </div>
+    <div id="cartItem">
+        <button id="cancel" onclick="onClose()">x</button>
+        <div class="text">Cart</div>
+        <div class="text" id="cartvalue">Your Cart (0 Items)</div>
+        <div id="items"></div>
+        <div id="amount">
+            <div id="amount1">Total amount : 0 Rs</div>
+        <div id="btnHolder">
+            <button>Confirm</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+        </div>
+    </div>
+    <div id="descript">
+        <div>The best place to</div>
+        <div id="eat">eat burgers in KOLKATA.</div>
+        <div id="showBtn">
+            <button class="online">Order Online</button>
+            <button class="order">Reservate</button>
+        </div>
+    </div>
+    <div id="overlay"></div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
